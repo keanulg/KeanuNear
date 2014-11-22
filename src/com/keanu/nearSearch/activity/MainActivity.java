@@ -3,7 +3,10 @@ package com.keanu.nearSearch.activity;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,8 +21,9 @@ import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
 import com.keanu.nearSearch.R;
+import com.keanu.nearSearch.model.KeanuNearDB;
+import com.keanu.nearSearch.model.NaviOne;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -30,11 +34,13 @@ public class MainActivity extends Activity {
     private Button index_locationButton;
     private LocationClient locationClient = null;
     private BDLocationListener myListener = new MyLocationListener();
-    private List<String> menuList = new ArrayList<String>();;
-    private String[] menuArray = {"餐饮服务","购物服务","生活服务","体育休闲服务","住宿服务","医疗保健服务","科教文化服务","交通设施服务"};
+    private List<NaviOne> naviOneList;;
     private ProgressDialog progressDialog;
     private TextView index_dangQianLocText;
     private TextView index_currentLocationArea;
+    private KeanuNearDB keanuNearDB;
+    private Button toNaviTwoButton;
+    private SharedPreferences pref;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,14 +50,19 @@ public class MainActivity extends Activity {
         index_menusListView = (ListView) findViewById(R.id.index_menusListView);
         index_locationButton = (Button) findViewById(R.id.index_locationButton);
         index_currentLocationArea = (TextView) findViewById(R.id.index_currentLocationArea);
+        keanuNearDB = KeanuNearDB.getInstance(this);
+        pref = PreferenceManager.getDefaultSharedPreferences(this);
+        boolean isWrite = pref.getBoolean("isWriteData",false);
+        if (isWrite==false){
+            initNaviOneListData();
+        }
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("定位中，请稍等...");
         index_dangQianLocText.setText("定位中，");
         index_currentLocationArea.setText("请稍等...");
-        for (int i = 0; i < menuArray.length; i++) {
-            menuList.add(menuArray[i]);
-        }
-        MenuListAdapter adapter = new MenuListAdapter(this,R.layout.index_menu_list_item,menuList);
+
+        naviOneList = keanuNearDB.loadNaviOne();
+        MenuListAdapter adapter = new MenuListAdapter(this,R.layout.index_menu_list_item,naviOneList);
         index_menusListView.setAdapter(adapter);
 
         locationClient = new LocationClient(this);
@@ -66,9 +77,9 @@ public class MainActivity extends Activity {
      * 自定义Adapter
      */
 
-    class MenuListAdapter extends ArrayAdapter<String>{
+    class MenuListAdapter extends ArrayAdapter<NaviOne>{
         private int resourceId;
-        MenuListAdapter(Context context, int textViewResourceId, List<String> objects) {
+        MenuListAdapter(Context context, int textViewResourceId, List<NaviOne> objects) {
             super(context, textViewResourceId, objects);
             resourceId = textViewResourceId;
         }
@@ -79,12 +90,12 @@ public class MainActivity extends Activity {
         }
 
         @Override
-        public String getItem(int position) {
+        public NaviOne getItem(int position) {
             return super.getItem(position);
         }
 
         @Override
-        public int getPosition(String item) {
+        public int getPosition(NaviOne item) {
             return super.getPosition(item);
         }
 
@@ -95,10 +106,19 @@ public class MainActivity extends Activity {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            String s = getItem(position);
+            final NaviOne naviOne = getItem(position);
             View view = LayoutInflater.from(getContext()).inflate(resourceId,null);
             TextView menuItemText = (TextView) view.findViewById(R.id.menuItemText);
-            menuItemText.setText(s);
+            menuItemText.setText(naviOne.getNaviOneName());
+            toNaviTwoButton = (Button) view.findViewById(R.id.toNaviTwoButton);
+            toNaviTwoButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this,NaviTwoActivity.class);
+                    intent.putExtra("navi_one",naviOne);
+                    startActivity(intent);
+                }
+            });
             return view;
         }
     }
@@ -151,5 +171,19 @@ public class MainActivity extends Activity {
             index_dangQianLocText.setText("当前位置：");
             index_currentLocationArea.setText(name);
         }
+    }
+    /**
+     * 一级导航列表数据初始化
+     */
+    private void initNaviOneListData(){
+        String[] menuArray = {"美食","休闲娱乐","酒店","丽人","购物","生活服务","结婚"};
+        for (int i = 0; i < menuArray.length; i++) {
+            NaviOne naviOne = new NaviOne();
+            naviOne.setNaviOneName(menuArray[i]);
+            keanuNearDB.saveNaviOne(naviOne);
+        }
+        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(MainActivity.this).edit();
+        editor.putBoolean("isWriteData",true);
+        editor.commit();
     }
 }

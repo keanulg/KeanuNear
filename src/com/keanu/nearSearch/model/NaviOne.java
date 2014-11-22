@@ -1,9 +1,11 @@
 package com.keanu.nearSearch.model;
 
+import java.io.Serializable;
+
 /**
  * Created by Administrator on 2014-11-22 .
  */
-public class NaviOne {
+public class NaviOne implements Serializable{
     private int naviOneId;
     private String naviOneName;
 

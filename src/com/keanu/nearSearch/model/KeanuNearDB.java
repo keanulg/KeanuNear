@@ -80,9 +80,10 @@ public class KeanuNearDB {
     /**
      * 从数据库读取二级导航
      */
-    public List<NaviTwo> loadNaviTwo(){
+    public List<NaviTwo> loadNaviTwo(int navi_one_id){
         List<NaviTwo> list = new ArrayList<NaviTwo>();
-        Cursor cursor = db.query("navi_two",null,null,null,null,null,null);
+        String sql = "select * from navi_two where navi_one_id = ?";
+        Cursor cursor = db.rawQuery(sql,new String[]{navi_one_id+""});
         if (cursor.moveToFirst()){
             do {
                 NaviTwo naviTwo = new NaviTwo();

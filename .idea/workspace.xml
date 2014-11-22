@@ -26,7 +26,6 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="asdf" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.keanu.nearSearch" />
   </component>
@@ -59,58 +58,61 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.754717" vertical-offset="1488" max-vertical-offset="2028">
+            <state vertical-scroll-proportion="-27.35849" vertical-offset="396" max-vertical-offset="2028">
               <caret line="71" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/activity/MainActivity.java">
+      <file leaf-file-name="index_menu_list_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/index_menu_list_item.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1237" max-vertical-offset="4186">
-              <caret line="151" column="52" selection-start-line="151" selection-start-column="52" selection-end-line="151" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1045#1053#0" expanded="true" />
-                <element signature="e#2917#2918#0" expanded="true" />
-                <element signature="e#2964#2965#0" expanded="true" />
-                <element signature="e#3029#3030#0" expanded="true" />
-                <element signature="e#3083#3084#0" expanded="true" />
-                <element signature="e#3148#3149#0" expanded="true" />
-                <element signature="e#3202#3203#0" expanded="true" />
-                <element signature="e#3267#3268#0" expanded="true" />
-                <element signature="e#3323#3324#0" expanded="true" />
-                <element signature="e#3836#4333#0" expanded="true" />
-                <element signature="e#4322#4323#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-5.226415" vertical-offset="295" max-vertical-offset="910">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeanuNearDB.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/model/KeanuNearDB.java">
+      <file leaf-file-name="activity_second_navi.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_second_navi.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83613443" vertical-offset="2696" max-vertical-offset="3406">
-              <caret line="119" column="36" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1467#1476#0" expanded="true" />
-                <element signature="e#2434#2443#0" expanded="true" />
-                <element signature="e#3514#3525#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-2.3962264" vertical-offset="211" max-vertical-offset="1066">
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeanuNearOpenHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/db/KeanuNearOpenHelper.java">
+      <file leaf-file-name="navi_two_list_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/navi_two_list_item.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="1352">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="25" />
+            <state vertical-scroll-proportion="-4.3773584" vertical-offset="184" max-vertical-offset="702">
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NaviTwoActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/activity/NaviTwoActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.64453125" vertical-offset="1256" max-vertical-offset="5122">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#8032#8298#0" expanded="true" />
+                <element signature="e#8287#8288#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,17 +131,19 @@
         <option value="$PROJECT_DIR$/res/drawable/bg_location_button.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/drawable/bg_next_step_button.xml" />
-        <option value="$PROJECT_DIR$/res/layout/index_menu_list_item.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/keanu/nearSearch/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_canyin.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_second_navi.xml" />
         <option value="$PROJECT_DIR$/src/com/keanu/nearSearch/db/KeanuNearOpenHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/keanu/nearSearch/model/NaviOne.java" />
         <option value="$PROJECT_DIR$/src/com/keanu/nearSearch/model/NaviTwo.java" />
         <option value="$PROJECT_DIR$/src/com/keanu/nearSearch/model/NaviThree.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/keanu/nearSearch/model/NaviOne.java" />
+        <option value="$PROJECT_DIR$/src/com/keanu/nearSearch/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/keanu/nearSearch/model/KeanuNearDB.java" />
+        <option value="$PROJECT_DIR$/res/layout/index_menu_list_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/navi_two_list_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_second_navi.xml" />
+        <option value="$PROJECT_DIR$/src/com/keanu/nearSearch/activity/NaviTwoActivity.java" />
       </list>
     </option>
   </component>
@@ -267,7 +271,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nearSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="基努周边" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NearSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="基努周边" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NearSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,12 +604,12 @@
       <changelist id="aa1a114a-045f-4a44-95ee-939323f1754d" name="Default" comment="" />
       <created>1416623077180</created>
       <updated>1416623077180</updated>
-      <workItem from="1416623081375" duration="12387000" />
+      <workItem from="1416623081375" duration="21865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12387000" />
+    <option name="totallyTimeSpent" value="21865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
@@ -587,7 +631,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15497553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09624796" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -642,27 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/index_menu_list_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.15555556" vertical-offset="434" max-vertical-offset="884">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7753479" vertical-offset="78" max-vertical-offset="1222">
-          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-          <folding>
-            <element signature="e#439#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/locSDK_4.2.jar!/com/baidu/location/LocationClientOption.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1627297" vertical-offset="1985" max-vertical-offset="2366">
@@ -679,60 +702,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.754717" vertical-offset="1488" max-vertical-offset="2028">
-          <caret line="71" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_second_navi.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64220184" vertical-offset="344" max-vertical-offset="1092">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/model/NaviOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9038855" vertical-offset="0" max-vertical-offset="806">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/model/NaviTwo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1697341" vertical-offset="0" max-vertical-offset="1040">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="false" />
+            <element signature="e#261#262#0" expanded="false" />
+            <element signature="e#299#300#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#398#399#0" expanded="false" />
+            <element signature="e#487#488#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#634#635#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -742,47 +727,45 @@
         <state vertical-scroll-proportion="0.42535788" vertical-offset="0" max-vertical-offset="1040">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#311#312#0" expanded="false" />
+            <element signature="e#347#348#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#412#413#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/activity/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="4186">
-          <caret line="151" column="52" selection-start-line="151" selection-start-column="52" selection-end-line="151" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.60084033" vertical-offset="78" max-vertical-offset="1248">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/model/NaviOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26584867" vertical-offset="52" max-vertical-offset="702">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1045#1053#0" expanded="true" />
-            <element signature="e#2917#2918#0" expanded="true" />
-            <element signature="e#2964#2965#0" expanded="true" />
-            <element signature="e#3029#3030#0" expanded="true" />
-            <element signature="e#3083#3084#0" expanded="true" />
-            <element signature="e#3148#3149#0" expanded="true" />
-            <element signature="e#3202#3203#0" expanded="true" />
-            <element signature="e#3267#3268#0" expanded="true" />
-            <element signature="e#3323#3324#0" expanded="true" />
-            <element signature="e#3836#4333#0" expanded="true" />
-            <element signature="e#4322#4323#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#448#449#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/db/KeanuNearOpenHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="1352">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="1352">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -791,13 +774,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/model/KeanuNearDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83613443" vertical-offset="2696" max-vertical-offset="3406">
-          <caret line="119" column="36" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2005" max-vertical-offset="3432">
+          <caret line="85" column="66" selection-start-line="85" selection-start-column="66" selection-end-line="85" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1467#1476#0" expanded="false" />
+            <element signature="e#2449#2458#0" expanded="false" />
+            <element signature="e#3593#3604#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51171875" vertical-offset="804" max-vertical-offset="5070">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1467#1476#0" expanded="true" />
-            <element signature="e#2434#2443#0" expanded="true" />
-            <element signature="e#3514#3525#0" expanded="true" />
+            <element signature="e#3295#3296#0" expanded="true" />
+            <element signature="e#3342#3343#0" expanded="true" />
+            <element signature="e#3408#3409#0" expanded="true" />
+            <element signature="e#3462#3463#0" expanded="true" />
+            <element signature="e#3528#3529#0" expanded="true" />
+            <element signature="e#3582#3583#0" expanded="true" />
+            <element signature="e#3647#3648#0" expanded="true" />
+            <element signature="e#3703#3704#0" expanded="true" />
+            <element signature="e#4215#4536#0" expanded="true" />
+            <element signature="e#4521#4522#0" expanded="true" />
+            <element signature="e#4703#5200#0" expanded="true" />
+            <element signature="e#5189#5190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.35849" vertical-offset="396" max-vertical-offset="2028">
+          <caret line="71" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/index_menu_list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.226415" vertical-offset="295" max-vertical-offset="910">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/navi_two_list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3773584" vertical-offset="184" max-vertical-offset="702">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_second_navi.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3962264" vertical-offset="211" max-vertical-offset="1066">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/keanu/nearSearch/activity/NaviTwoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64453125" vertical-offset="1256" max-vertical-offset="5122">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8032#8298#0" expanded="true" />
+            <element signature="e#8287#8288#0" expanded="true" />
           </folding>
         </state>
       </provider>
