@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+        <TextView
+                android:id="@+id/menuItemText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="餐饮服务"
+                android:layout_centerVertical="true"
+                android:textColor="#333333"
+                android:textSize="18dp"/>
+        <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_next_step_button"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2px" android:background="#333333"></LinearLayout>
+</LinearLayout>
